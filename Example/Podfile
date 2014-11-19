@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'BUMPMessanger-Core', :exclusive => true do
+  pod "BUMPMessanger-Core", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end

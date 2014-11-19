@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A92A7F11A1C9ACC00EB57F5 /* BMCrittercismService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7B11A1C9ACC00EB57F5 /* BMCrittercismService.m */; };
-		0A92A7F21A1C9ACC00EB57F5 /* BMGoogleAnalyticsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7B41A1C9ACC00EB57F5 /* BMGoogleAnalyticsService.m */; };
-		0A92A7F51A1C9ACC00EB57F5 /* BMAppSettingsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7BE1A1C9ACC00EB57F5 /* BMAppSettingsUtil.m */; };
-		0A92A7F61A1C9ACC00EB57F5 /* BMDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7C11A1C9ACC00EB57F5 /* BMDateUtil.m */; };
-		0A92A7F71A1C9ACC00EB57F5 /* BMRetinaDisplayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7C41A1C9ACC00EB57F5 /* BMRetinaDisplayUtil.m */; };
-		0A92A7F81A1C9ACC00EB57F5 /* BMJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7C71A1C9ACC00EB57F5 /* BMJsonUtil.m */; };
-		0A92A7F91A1C9ACC00EB57F5 /* BMStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7CA1A1C9ACC00EB57F5 /* BMStringUtil.m */; };
-		0A92A7FA1A1C9ACC00EB57F5 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7CC1A1C9ACC00EB57F5 /* NSString+MD5Addition.m */; };
-		0A92A8011A1C9ACC00EB57F5 /* BMRegistrationFormDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7E51A1C9ACC00EB57F5 /* BMRegistrationFormDto.m */; };
-		0A92A8021A1C9ACC00EB57F5 /* BMMobileAccountPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92A7EB1A1C9ACC00EB57F5 /* BMMobileAccountPresenter.m */; };
 		17041811CD2EB5FCFA3CF27E /* libPods-BUMPMessanger-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF0F2BFCCC80921DA4B7E63 /* libPods-BUMPMessanger-Core.a */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -26,39 +16,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A92A7AD1A1C9ACC00EB57F5 /* BMCoreModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMCoreModule.h; path = "BUMPMessanger-Core/BMCoreModule.h"; sourceTree = "<group>"; };
-		0A92A7B01A1C9ACC00EB57F5 /* BMCrittercismService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMCrittercismService.h; sourceTree = "<group>"; };
-		0A92A7B11A1C9ACC00EB57F5 /* BMCrittercismService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMCrittercismService.m; sourceTree = "<group>"; };
-		0A92A7B31A1C9ACC00EB57F5 /* BMGoogleAnalyticsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMGoogleAnalyticsService.h; sourceTree = "<group>"; };
-		0A92A7B41A1C9ACC00EB57F5 /* BMGoogleAnalyticsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMGoogleAnalyticsService.m; sourceTree = "<group>"; };
-		0A92A7BD1A1C9ACC00EB57F5 /* BMAppSettingsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAppSettingsUtil.h; sourceTree = "<group>"; };
-		0A92A7BE1A1C9ACC00EB57F5 /* BMAppSettingsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAppSettingsUtil.m; sourceTree = "<group>"; };
-		0A92A7C01A1C9ACC00EB57F5 /* BMDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDateUtil.h; sourceTree = "<group>"; };
-		0A92A7C11A1C9ACC00EB57F5 /* BMDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDateUtil.m; sourceTree = "<group>"; };
-		0A92A7C31A1C9ACC00EB57F5 /* BMRetinaDisplayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRetinaDisplayUtil.h; sourceTree = "<group>"; };
-		0A92A7C41A1C9ACC00EB57F5 /* BMRetinaDisplayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRetinaDisplayUtil.m; sourceTree = "<group>"; };
-		0A92A7C61A1C9ACC00EB57F5 /* BMJsonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMJsonUtil.h; sourceTree = "<group>"; };
-		0A92A7C71A1C9ACC00EB57F5 /* BMJsonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMJsonUtil.m; sourceTree = "<group>"; };
-		0A92A7C91A1C9ACC00EB57F5 /* BMStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMStringUtil.h; sourceTree = "<group>"; };
-		0A92A7CA1A1C9ACC00EB57F5 /* BMStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMStringUtil.m; sourceTree = "<group>"; };
-		0A92A7CB1A1C9ACC00EB57F5 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		0A92A7CC1A1C9ACC00EB57F5 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		0A92A7DE1A1C9ACC00EB57F5 /* BMMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMMacro.h; path = "BUMPMessanger-Core/BMMacro.h"; sourceTree = "<group>"; };
-		0A92A7DF1A1C9ACC00EB57F5 /* BMNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMNotificationCenter.h; path = "BUMPMessanger-Core/BMNotificationCenter.h"; sourceTree = "<group>"; };
-		0A92A7E01A1C9ACC00EB57F5 /* BMSocialNetworkType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMSocialNetworkType.h; path = "BUMPMessanger-Core/BMSocialNetworkType.h"; sourceTree = "<group>"; };
-		0A92A7E11A1C9ACC00EB57F5 /* Core-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Core-Prefix.pch"; path = "BUMPMessanger-Core/Core-Prefix.pch"; sourceTree = "<group>"; };
-		0A92A7E41A1C9ACC00EB57F5 /* BMRegistrationFormDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRegistrationFormDto.h; sourceTree = "<group>"; };
-		0A92A7E51A1C9ACC00EB57F5 /* BMRegistrationFormDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRegistrationFormDto.m; sourceTree = "<group>"; };
-		0A92A7E71A1C9ACC00EB57F5 /* BMPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPresenter.h; sourceTree = "<group>"; };
-		0A92A7EA1A1C9ACC00EB57F5 /* BMMobileAccountPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMobileAccountPresenter.h; sourceTree = "<group>"; };
-		0A92A7EB1A1C9ACC00EB57F5 /* BMMobileAccountPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMobileAccountPresenter.m; sourceTree = "<group>"; };
 		2172AE651D0231ACF98C6EBF /* BUMPMessanger-Core.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "BUMPMessanger-Core.podspec"; path = "../BUMPMessanger-Core.podspec"; sourceTree = "<group>"; };
 		5401103DF83F84587785A774 /* Pods-BUMPMessanger-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUMPMessanger-Core.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BUMPMessanger-Core/Pods-BUMPMessanger-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BUMPMessanger-Core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BUMPMessanger-Core.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = "BUMPMessanger-Core.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* BUMPMessanger-Core.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BUMPMessanger-Core.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -85,167 +49,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A92A7AC1A1C9AB500EB57F5 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A8041A1C9C0D00EB57F5 /* Supporting Files */,
-				0A92A7AD1A1C9ACC00EB57F5 /* BMCoreModule.h */,
-				0A92A7AE1A1C9ACC00EB57F5 /* Services */,
-				0A92A7BB1A1C9ACC00EB57F5 /* Utils */,
-				0A92A7DE1A1C9ACC00EB57F5 /* BMMacro.h */,
-				0A92A7DF1A1C9ACC00EB57F5 /* BMNotificationCenter.h */,
-				0A92A7E01A1C9ACC00EB57F5 /* BMSocialNetworkType.h */,
-				0A92A7E21A1C9ACC00EB57F5 /* Dto */,
-				0A92A7E61A1C9ACC00EB57F5 /* Presenters */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		0A92A7AE1A1C9ACC00EB57F5 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7AF1A1C9ACC00EB57F5 /* Crittercism */,
-				0A92A7B21A1C9ACC00EB57F5 /* GoogleAnalytics */,
-			);
-			name = Services;
-			path = "BUMPMessanger-Core/Services";
-			sourceTree = "<group>";
-		};
-		0A92A7AF1A1C9ACC00EB57F5 /* Crittercism */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7B01A1C9ACC00EB57F5 /* BMCrittercismService.h */,
-				0A92A7B11A1C9ACC00EB57F5 /* BMCrittercismService.m */,
-			);
-			path = Crittercism;
-			sourceTree = "<group>";
-		};
-		0A92A7B21A1C9ACC00EB57F5 /* GoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7B31A1C9ACC00EB57F5 /* BMGoogleAnalyticsService.h */,
-				0A92A7B41A1C9ACC00EB57F5 /* BMGoogleAnalyticsService.m */,
-			);
-			path = GoogleAnalytics;
-			sourceTree = "<group>";
-		};
-		0A92A7BB1A1C9ACC00EB57F5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7BC1A1C9ACC00EB57F5 /* AppSettings */,
-				0A92A7BF1A1C9ACC00EB57F5 /* Date */,
-				0A92A7C21A1C9ACC00EB57F5 /* Device */,
-				0A92A7C51A1C9ACC00EB57F5 /* Json */,
-				0A92A7C81A1C9ACC00EB57F5 /* String */,
-			);
-			name = Utils;
-			path = "BUMPMessanger-Core/Utils";
-			sourceTree = "<group>";
-		};
-		0A92A7BC1A1C9ACC00EB57F5 /* AppSettings */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7BD1A1C9ACC00EB57F5 /* BMAppSettingsUtil.h */,
-				0A92A7BE1A1C9ACC00EB57F5 /* BMAppSettingsUtil.m */,
-			);
-			path = AppSettings;
-			sourceTree = "<group>";
-		};
-		0A92A7BF1A1C9ACC00EB57F5 /* Date */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7C01A1C9ACC00EB57F5 /* BMDateUtil.h */,
-				0A92A7C11A1C9ACC00EB57F5 /* BMDateUtil.m */,
-			);
-			path = Date;
-			sourceTree = "<group>";
-		};
-		0A92A7C21A1C9ACC00EB57F5 /* Device */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7C31A1C9ACC00EB57F5 /* BMRetinaDisplayUtil.h */,
-				0A92A7C41A1C9ACC00EB57F5 /* BMRetinaDisplayUtil.m */,
-			);
-			path = Device;
-			sourceTree = "<group>";
-		};
-		0A92A7C51A1C9ACC00EB57F5 /* Json */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7C61A1C9ACC00EB57F5 /* BMJsonUtil.h */,
-				0A92A7C71A1C9ACC00EB57F5 /* BMJsonUtil.m */,
-			);
-			path = Json;
-			sourceTree = "<group>";
-		};
-		0A92A7C81A1C9ACC00EB57F5 /* String */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7C91A1C9ACC00EB57F5 /* BMStringUtil.h */,
-				0A92A7CA1A1C9ACC00EB57F5 /* BMStringUtil.m */,
-				0A92A7CB1A1C9ACC00EB57F5 /* NSString+MD5Addition.h */,
-				0A92A7CC1A1C9ACC00EB57F5 /* NSString+MD5Addition.m */,
-			);
-			path = String;
-			sourceTree = "<group>";
-		};
-		0A92A7E21A1C9ACC00EB57F5 /* Dto */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7E31A1C9ACC00EB57F5 /* RegistrationFormDto */,
-			);
-			name = Dto;
-			path = "BUMPMessanger-Core/Dto";
-			sourceTree = "<group>";
-		};
-		0A92A7E31A1C9ACC00EB57F5 /* RegistrationFormDto */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7E41A1C9ACC00EB57F5 /* BMRegistrationFormDto.h */,
-				0A92A7E51A1C9ACC00EB57F5 /* BMRegistrationFormDto.m */,
-			);
-			path = RegistrationFormDto;
-			sourceTree = "<group>";
-		};
-		0A92A7E61A1C9ACC00EB57F5 /* Presenters */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7E71A1C9ACC00EB57F5 /* BMPresenter.h */,
-				0A92A7E81A1C9ACC00EB57F5 /* Security */,
-			);
-			name = Presenters;
-			path = "BUMPMessanger-Core/Presenters";
-			sourceTree = "<group>";
-		};
-		0A92A7E81A1C9ACC00EB57F5 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7E91A1C9ACC00EB57F5 /* MobileAccountPresenter */,
-			);
-			path = Security;
-			sourceTree = "<group>";
-		};
-		0A92A7E91A1C9ACC00EB57F5 /* MobileAccountPresenter */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7EA1A1C9ACC00EB57F5 /* BMMobileAccountPresenter.h */,
-				0A92A7EB1A1C9ACC00EB57F5 /* BMMobileAccountPresenter.m */,
-			);
-			path = MobileAccountPresenter;
-			sourceTree = "<group>";
-		};
-		0A92A8041A1C9C0D00EB57F5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A92A7E11A1C9ACC00EB57F5 /* Core-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				0A92A7AC1A1C9AB500EB57F5 /* Core */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -258,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* BUMPMessanger-Core.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F5AE195388D20070C39A /* BUMPMessanger-Core.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -332,7 +138,7 @@
 			);
 			name = "BUMPMessanger-Core";
 			productName = "BUMPMessanger-CoreTests";
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* BUMPMessanger-Core.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -417,17 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A92A7F11A1C9ACC00EB57F5 /* BMCrittercismService.m in Sources */,
-				0A92A7FA1A1C9ACC00EB57F5 /* NSString+MD5Addition.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-				0A92A7F61A1C9ACC00EB57F5 /* BMDateUtil.m in Sources */,
-				0A92A8021A1C9ACC00EB57F5 /* BMMobileAccountPresenter.m in Sources */,
-				0A92A7F81A1C9ACC00EB57F5 /* BMJsonUtil.m in Sources */,
-				0A92A8011A1C9ACC00EB57F5 /* BMRegistrationFormDto.m in Sources */,
-				0A92A7F51A1C9ACC00EB57F5 /* BMAppSettingsUtil.m in Sources */,
-				0A92A7F71A1C9ACC00EB57F5 /* BMRetinaDisplayUtil.m in Sources */,
-				0A92A7F21A1C9ACC00EB57F5 /* BMGoogleAnalyticsService.m in Sources */,
-				0A92A7F91A1C9ACC00EB57F5 /* BMStringUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

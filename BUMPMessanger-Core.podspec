@@ -31,12 +31,16 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
+  s.source_files = 'BUMPMessanger-Core/**/*.{m,h}'
   s.resource_bundles = {
     'BUMPMessanger-Core' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.4.1'
+  s.dependency 'CocoaLumberjack'
+  s.dependency 'CrittercismSDK', '~> 5.0.7'
+  s.dependency 'GoogleAnalytics-iOS-SDK', '2.0beta4'
+  s.dependency 'Objection', '1.4'
 end

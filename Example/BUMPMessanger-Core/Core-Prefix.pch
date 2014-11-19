@@ -1,0 +1,16 @@
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+
+    #import "AFNetworking.h"
+    #import "Objection.h"
+    #import "BMMacro.h"
+    #import "DDLog.h"
+
+    #ifdef DEBUG
+        static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+    #else
+        static const int ddLogLevel = LOG_LEVEL_ERROR;
+    #endif
+#endif

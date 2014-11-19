@@ -6,4 +6,10 @@ target 'BUMPMessanger-Core', :exclusive => true do
 
   pod 'Specta', '~> 0.2.1'
   pod 'Expecta'
+  pod 'AFNetworking', '~> 2.4.1'
+  pod 'CocoaLumberjack'
+  pod 'CrittercismSDK', '~> 5.0.7'
+  pod 'GoogleAnalytics-iOS-SDK', '2.0beta4'
+  pod 'Objection', '1.4'
+  pod 'JSONKit', :podspec => 'PodSpec/JSONKit.podspec'
 end

@@ -10,19 +10,23 @@
 Pod::Spec.new do |s|
   s.name             = "BUMPMessanger-Core"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BUMPMessanger-Core."
+  s.summary          = "Core functionls and utils for BUMP"
   s.description      = <<-DESC
-                       An optional longer description of BUMPMessanger-Core
+                       Includes:
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        * Application settings
+                        * Date utils
+                        * Json utils
+                        * String utils
+                        * Device utils
+                        * Mobile registration and authentication presenters
+                        * Crittercism service
+                        * Google analitics service
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BUMPMessanger-Core"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/antony-ulyanov/BUMPMessanger-Core"
   s.license          = 'MIT'
   s.author           = { "Anton Ulyanov" => "rumburu@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BUMPMessanger-Core.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/antony-ulyanov/BUMPMessanger-Core.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -34,5 +38,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
 end

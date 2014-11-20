@@ -1,3 +1,5 @@
+#import <Foundation/Foundation.h>
+
 #pragma mark System Versioning
 
 // See "http://stackoverflow.com/questions/12561599/how-to-check-ios-version-is-ios-6".

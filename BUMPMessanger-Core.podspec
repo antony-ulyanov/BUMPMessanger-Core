@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'BUMPMessanger-Core/**/*.{m,h}'
+  s.source_files = 'Pod/Classes/**/*.{m,h}'
   s.resource_bundles = {
     'BUMPMessanger-Core' => ['Pod/Assets/*.png']
   }

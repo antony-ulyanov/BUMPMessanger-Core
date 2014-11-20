@@ -1,5 +1,6 @@
 #import "NSString+MD5Addition.h"
 #import <CommonCrypto/CommonDigest.h>
+#import "BMMacro.h"
 
 
 @implementation NSString (MD5Addition)

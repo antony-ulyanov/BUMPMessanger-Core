@@ -1,4 +1,5 @@
 #import "BMMobileAccountPresenter.h"
+#import "BMMacro.h"
 
 
 @implementation BMMobileAccountPresenter

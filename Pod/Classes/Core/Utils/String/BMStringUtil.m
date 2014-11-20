@@ -7,6 +7,7 @@
 //
 
 #import "BMStringUtil.h"
+#import "BMMacro.h"
 
 @implementation BMStringUtil
 

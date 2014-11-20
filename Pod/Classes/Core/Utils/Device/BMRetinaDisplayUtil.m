@@ -1,4 +1,5 @@
 #import "BMRetinaDisplayUtil.h"
+#import "BMMacro.h"
 
 
 @implementation BMRetinaDisplayUtil

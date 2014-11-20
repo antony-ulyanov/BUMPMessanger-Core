@@ -1,4 +1,5 @@
 #import "BMAppSettingsUtil.h"
+#import "BMMacro.h"
 
 
 static NSString *const USER_DEFAULTS_MOBILE_ACCOUNT_KEY = @"bm_mobileAccount";

@@ -8,6 +8,7 @@
 
 #import "BMJsonUtil.h"
 #import "BMPresenter.h"
+#import "BMMacro.h"
 
 @implementation BMJsonUtil
 

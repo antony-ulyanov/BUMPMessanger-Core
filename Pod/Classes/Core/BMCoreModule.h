@@ -2,7 +2,7 @@
 #import "BMPresenter.h"
 #import "BMSocialNetworkType.h"
 #import "BMJsonUtil.h"
-#import "BMServiceResponse.h"
+//#import "BMServiceResponse.h"
 #import "BMStringUtil.h"
 #import "BMAppSettingsUtil.h"
 #import "BMMobileAccountPresenter.h"

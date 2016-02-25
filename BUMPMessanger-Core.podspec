@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.author           = { "Anton Ulyanov" => "rumburu@gmail.com" }
   s.source           = { :git => "https://github.com/antony-ulyanov/BUMPMessanger-Core.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*.{m,h}'
@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 2.5.4'
   s.dependency 'CocoaLumberjack'
   s.dependency 'CrittercismSDK', '~> 5.5.1'
-  s.dependency 'GoogleAnalytics-iOS-SDK', '~> 3.10'
+  s.dependency 'GoogleAnalytics-iOS-SDK', '~> 3.12'
   s.dependency 'Objection', '1.4'
 end

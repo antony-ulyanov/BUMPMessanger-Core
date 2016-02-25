@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.author           = { "Anton Ulyanov" => "rumburu@gmail.com" }
   s.source           = { :git => "https://github.com/antony-ulyanov/BUMPMessanger-Core.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*.{m,h}'

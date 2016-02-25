@@ -41,6 +41,5 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 2.5.4'
   s.dependency 'CocoaLumberjack'
   s.dependency 'CrittercismSDK', '~> 5.5.1'
-  s.dependency 'GoogleAnalytics-iOS-SDK', '~> 3.12'
   s.dependency 'Objection', '1.4'
 end

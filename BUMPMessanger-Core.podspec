@@ -40,6 +40,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.5.4'
   s.dependency 'CocoaLumberjack'
-  s.dependency 'CrittercismSDK', '~> 5.5.1'
   s.dependency 'Objection', '1.4'
 end
